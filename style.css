@@ -1,0 +1,250 @@
+/* Details: Style de la page Ex2/index.html */
+
+body{
+    background-color: #1b123c;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.logo{
+    width: auto;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#playerstat p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#scoreboards p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.scoreboards{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin : 10px;
+}
+
+.debut{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px; 
+}
+
+#debut h1 {
+    font-size: 90px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#debut p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#debut input{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color : #757575;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: medium;
+
+}
+
+.level{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    width: 150px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Press Start 2P';
+    font-size: small;
+    color: #757575;
+
+}
+
+.bandeau{
+    width: 100%;
+    height: 20%;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bandeau p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.game{
+    width: 100%;
+    height: 60%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid white;
+}
+
+.start{
+    display: flex;
+    background-color: #1b123c;
+    border: none;
+    margin: 10px;
+}
+
+.stargame {
+    display: flex;
+    background-color: #1b123c;
+    border: none;
+    margin: 10px;
+}
+
+.stargame img {
+    width: auto; /* Remplacez par la largeur souhaitée */
+    height: 50px; /* Remplacez par la hauteur souhaitée */
+  }
+
+.start img {
+    width: auto; /* Remplacez par la largeur souhaitée */
+    height: 75px; /* Remplacez par la hauteur souhaitée */
+  }
+
+.start:hover{
+    cursor: pointer;
+}
+
+.fin{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.newgame{
+    background-color: #1b123c;
+    border: none;
+    margin: 10px;
+}
+
+.newgame img {
+    width: auto; /* Remplacez par la largeur souhaitée */
+    height: 75px; /* Remplacez par la hauteur souhaitée */
+  }
+
+.quit{
+    background-color: #1b123c;
+    border: none;
+    margin: 10px;
+}
+
+.quit img {
+    width: auto; /* Remplacez par la largeur souhaitée */
+    height: 75%; /* Remplacez par la hauteur souhaitée */
+  }
+
+.playerstat{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin : 10px;
+}
+
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('./font/Roboto_Mono/RobotoMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arcade classic 2';
+    src: url('./font/arcade_classic_2/ARCADECLASSIC.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'pixel invaders';
+    src: url('./font/pixel_invaders/pixel_invaders.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('./font/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

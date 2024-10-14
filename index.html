@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Space Invaders</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="./img/logo.png" type="image/x-icon">
+    </head>
+    
+
+    <body>
+        <div id="container" class="container">
+            <div class="debut" id="debut">
+                <img src="./img/logo.png" class ="logo"></a>
+                <p> Name : <input type="text" id="nameinput" name="name" placeholder="Enter your name"></p>
+                <div class="level">
+                    <p> Choose your level : </p>
+                    <select id="levelinput">
+                        <option value="1">Level 1</option>
+                        <option value="2">Level 2</option>
+                        <option value="3" selected>Level 3</option>
+                    </select>
+                </div>
+                <button class="start" id="start">
+                    <img src="./img/start4.png" alt="Bouton start">
+                </button>
+            </div>
+            <div class="bandeau" id="bandeau">
+                <p id="name">Name : </p>
+                <p id="score">Score : </p>
+                <h1 class="titre">Space Invaders</h1>
+                <p id = "level"> Level : </p>
+            </div>
+            <div class="game" id="game">
+                <button class="stargame" id="stargame">
+                    <img src="./img/start4.png" alt="Bouton start">
+                  </button>
+                <canvas id="canvas" width= 1200px, height = 600px></canvas>
+            </div>
+            <div class="fin" id="fin">
+                <h1 class="titre">Space Invaders</h1>
+                <h2 id="message"></h2>
+                <div class="playerstat" id="playerstat">
+                    <p id="nameFin">Name : </p>
+                    <p id="scoreFin">Score : </p>
+                    <p id = "levelFin"> Level : </p>
+                </div>
+                <div class="scoreboards" id="scoreboards">
+                    <p> Score Boards : </p>
+                </div>
+                <div class="button">
+                    <button class="newgame" id="newgame">
+                        <img src="./img/new_game4.png" alt="Bouton restart">
+                    </button>
+                    <button class="quit" id="quit">
+                        <img src="./img/quit4.png" alt="Bouton quit">
+                    </button>
+                </div>
+                
+        </div>
+        
+        <script type="module" src="./Script_js/script.js"></script>
+    </body>
+</html>
